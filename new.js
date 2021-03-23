@@ -263,7 +263,7 @@ function pic2(){
 }
 
 
-  var pic =document.getElementsByTagName(`image`)
+  var pic =document.getElementsById(`#mg`)
 function send(){
     pic.src="Screenshot_1.png"
 }
