@@ -263,10 +263,16 @@ function pic2(){
 }
 
 
-  var pic =document.getElementsById(`#mg`)
+  var pic =document.querySelector(`.mg`)
 function send(){
-    pic.src="Screenshot_1.png"
+  pic. src="Screenshot_1.png"
+    pic.style.width=`199px`
+    pic.style.borderRadius=`5%`
 }
 function send2(){
     pic.src=`coll.jpg`
+     pic.style.width=`500px`
 }
+
+
+var nnn=document.getElementsByClassName(``)
