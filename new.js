@@ -274,5 +274,3 @@ function send2(){
      pic.style.width=`500px`
 }
 
-
-var nnn=document.getElementsByClassName(``)
