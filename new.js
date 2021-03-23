@@ -274,3 +274,18 @@ function send2(){
      pic.style.width=`500px`
 }
 
+
+
+
+var link = document.getElementsByTagName(`a`)[0]
+
+link.innerHTML=`youtube`
+link.style.textDecoration=`none`
+link.style.textTransform=`uppercase`
+link.style.color=`black`
+link.style.fontSize=`2rem`
+link.href=`xxxxxx.com`
+
+
+var h1=document.getElementsByTagName(`h1`)[0]
+h1.innerHTML=`say fak`
