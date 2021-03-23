@@ -263,9 +263,9 @@ function pic2(){
 }
 
 
-  var pic =document.querySelector(`#img`)
+  var pic =document.getElementsByTagName(`image`)
 function send(){
-    pic.src=`Screenshot_1.png`
+    pic.src="Screenshot_1.png"
 }
 function send2(){
     pic.src=`coll.jpg`
