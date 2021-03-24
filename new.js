@@ -289,3 +289,57 @@ link.href=`xxxxxx.com`
 
 var h1=document.getElementsByTagName(`h1`)[0]
 h1.innerHTML=`say fak`
+
+
+var h3=document.createElement(`h1`)
+var text=document.createTextNode(`this line is from js`)
+h3.appendChild(text)
+var div=document.querySelector(`.my`)
+div.appendChild(h3)
+
+
+var h2=document.getElementsByTagName(`h1`)[1]
+div.removeChild(h2)
+
+
+
+
+
+
+
+
+
+var img=[`coll.jpg`, `162049374_2362781180521117_86420355175775897_o.jpg`,`nnjnjnjn.jpg`,`Screenshot_1.png`]
+
+var findImg=document.querySelector(`.carosole`) 
+
+var imgCount=0
+function next(){
+imgCount++
+if(imgCount>=img.length){
+  imgCount=0
+  findImg.src=img[imgCount]
+
+}else{
+  findImg.src=img[imgCount]
+
+}
+}
+
+
+
+function prev(){
+  
+imgCount--
+if(imgCount<0){
+  imgCount=img.length-1
+  findImg.src=img[imgCount]
+
+}else{
+  findImg.src=img[imgCount]
+
+}
+}
+
+  
+  
