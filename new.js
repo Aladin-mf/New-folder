@@ -343,3 +343,11 @@ if(imgCount<0){
 
   
   
+function add(){
+  document.getElementById(`parra`).classList.add(`para`)
+
+}
+function remove(){
+  document.getElementById(`parra`).classList.remove(`para`)
+
+}
