@@ -351,3 +351,11 @@ function remove(){
   document.getElementById(`parra`).classList.remove(`para`)
 
 }
+
+document.querySelector(`.bd`).addEventListener(`click`,function(){
+  document.querySelector(`.bd`).classList.add(`bdb`)
+})
+
+document.querySelector(`.bd`).addEventListener(`mouseout`,function(){
+  document.querySelector(`.bd`).classList.remove(`bdb`)
+})
