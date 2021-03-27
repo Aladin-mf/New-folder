@@ -375,28 +375,27 @@ for(var i=0;i<3;i++){
   document.querySelectorAll(`.mybut`)[i].addEventListener(`click`,function(){
 var text = this.innerHTML
 console.log(text)
+audd(text)
 
 
-switch(text){
+})
+}
+
+function audd(text){
+  switch(text){
   case `aud 1`:
     var audio = new Audio('what.ogg');
 audio.play();
 break
-
-
 
  case `aud 2`:
     var audio = new Audio('wawa.ogg');
 audio.play();
 break
 
-
-
-
 case `aud 3`:
     var audio = new Audio('moj.ogg');
 audio.play();
 break
 }
-})
 }
