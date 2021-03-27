@@ -376,26 +376,34 @@ for(var i=0;i<3;i++){
 var text = this.innerHTML
 console.log(text)
 audd(text)
-
+addanime(text)
 
 })
 }
 
 function audd(text){
   switch(text){
-  case `aud 1`:
+  case `aud-1`:
     var audio = new Audio('what.ogg');
 audio.play();
 break
 
- case `aud 2`:
+ case `aud-2`:
     var audio = new Audio('wawa.ogg');
 audio.play();
 break
 
-case `aud 3`:
+case `aud-3`:
     var audio = new Audio('moj.ogg');
 audio.play();
 break
 }
+}
+
+function addanime(text){
+document.querySelector(`.`+text).classList.add(`anime`)
+setTimeout(function()  {
+  document.querySelector(`.`+text).classList.remove(`anime`)
+
+}, 2000);
 }
