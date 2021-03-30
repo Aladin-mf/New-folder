@@ -412,8 +412,9 @@ setTimeout(function()  {
 
   var count=0
 document.querySelector(`#tarea`).addEventListener(`keypress` , function(event){
-
+  
   count++
   
   document.querySelector(`.keypress`).innerHTML=`u have pressed `+count
 })
+ 
